@@ -8,7 +8,8 @@ myFirstShape.setAttribute("cx", 100)
 myFirstShape.setAttribute("cy", 100)
 myFirstShape.setAttribute("r", 50)
 myFirstShape.setAttribute("fill", "indigo")
-canvas.appendChild(myFirstShape)
+var canvas = document.getElementById("problem-four-canvas")
+canvas.appendChild(circle)
 
 
 // Create a rectangle and add it to the canvas.
@@ -18,4 +19,5 @@ mySecondShape.setAttribute("y", 40)
 mySecondShape.setAttribute("width", 70)
 mySecondShape.setAttribute("height", 70)
 mySecondShape.setAttribute("fill", "purple")
-canvas.appendChild(mySecondShape)
+var canvas = document.getElementById("problem-four-canvas")
+canvas.appendChild(rect)
