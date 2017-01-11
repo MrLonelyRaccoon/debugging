@@ -5,12 +5,12 @@ var thePassword = "p@ssword"
 
 function checkPassword() {
     if (theUsername == "appacademystudent") {
-        if (thePassword == "p@ssword") {
+        if (thePassword == "pizza") {
             alert("Access granted.")
         } else {
             alert("Access denied.")
-    
-    else {
+        }
+    } else {
         alert("I dont know that username.")
     }
 }
